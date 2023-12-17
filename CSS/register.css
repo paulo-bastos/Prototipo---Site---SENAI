@@ -21,6 +21,7 @@ section {
     width: 600px;
     height: 40px;
     background-color: white;
+    color: black;
     border-radius: 10px;
 }
 .access_user button {

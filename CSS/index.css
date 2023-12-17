@@ -36,6 +36,8 @@ nav img {
     text-align: center;
     justify-content: center;
     background-color: #005CB2;
+    font-size:larger;
+    font-weight: 700;
     margin: 0px;
 }
 .buscador {
@@ -50,7 +52,8 @@ nav img {
     height: 50px;
     background-color: white;
     border-radius: 10px 0 0 10px;
-    border-style: hidden;    
+    border-style: hidden;
+    color: black;
 }
 .buscador img {
     width: 40px;
@@ -74,6 +77,14 @@ nav img {
     background-color: #005CB2;
     border: none;
     border-radius: 0;
+}
+.dropdown-menu.show {
+    border-radius: 10px;
+}
+.dropdown-menu.show, a.dropdown-item {
+    background-color: #005CB2;
+    padding: 10px;
+    color: white;
 }
 .menu-link {
     display: flex;
