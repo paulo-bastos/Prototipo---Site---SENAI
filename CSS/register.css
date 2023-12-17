@@ -1,0 +1,35 @@
+section {
+    width: 1494px;
+    margin: auto;
+}
+#identify {
+    padding: 0px;
+}
+.access {
+    display: flex;
+}
+.access_user {
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 5%;
+}
+.access_user p {
+    align-self:auto;
+    margin:  1%;
+}
+.access_user input {
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.access_user button {
+    width: 100px;
+    height: 50px;
+    background-color: #005CB2;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 3% 0 3% 83%;
+}

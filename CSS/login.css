@@ -1,0 +1,52 @@
+.box_identify {
+    width: 1494px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;    
+}
+#identify {
+    padding: 0 140px 30px;
+    
+}
+.access{
+    display: flex;
+    justify-content: center;
+    
+}
+.access_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 5%;
+}
+.access_user p {
+    align-self: center;
+    margin: 0px;
+}
+.data_user {
+
+    display: flex;
+    justify-content:flex-end;    
+}
+a {
+    display: flex;
+    justify-content: end;
+}
+.access_user input {
+    width: 300px;
+    height: 41px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.access_user button {
+    width: 300px;
+    height: 41px;
+    background-color: #005CB2;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    align-self: end;
+}

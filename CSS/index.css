@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: justify;
+    width: 1494px;
+    margin: auto;
+    padding: 50px 0px 5px ;
+}
+
+.container_cabecalho {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1494px;
+    margin: 40px auto 0px;
+    border-radius: 10px;
+    background-color: #005CB2;
+}
+nav img {
+    width: 200px;
+    height: 200px;
+}
+#logo {
+    margin: 20px 40px 20px 50px;
+}
+#slogan{
+    text-align: center;
+    justify-content: center;
+    background-color: #005CB2;
+    margin: 0px;
+}
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005CB2;
+    padding: 24px 0;
+}
+.buscador input {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    border-style: hidden;    
+}
+.buscador img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: white;
+}
+.buscador button{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+}
+.dropdown button {
+    background-color: #005CB2;
+    border: none;
+    border-radius: 0;
+}
+.menu-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #005CB2;
+    color: white;
+    padding: 6px 12px;
+}
+.container_perfil {
+    display:inline-block;
+    padding: 20px 50px 20px 40px;
+    background-color: #005CB2;
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #005CB2;    
+    padding-block: 40px;
+}
+.perfil p {
+    margin: 0px;
+}
+.perfil img {
+    width: 65px;
+    height: 60px;
+    background-color: #005CB2;    
+}
+#account {
+    background-color: #005CB2;
+}
+.vendas {
+    background-color: #005CB2;
+    margin: 0px;
+}
+
+.registro a {
+    padding-left: 10px;
+    color:white;
+    background-color: #005CB2;
+    text-decoration: none;
+
+}
+.vendas {
+    display: flex;
+    justify-content: space-between;
+}
+.vendas img {
+    width: 45px;
+    height: 41px;
+    background-color: #005CB2;
+}
+main {
+    padding: 10px;
+}
+.card_highlights {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 1494px;
+    height: 300px;
+    margin: 10px auto 0px;
+    
+}
+.card {
+    --bs-body-bg: none;
+}
+.card_highlights .card-body {
+    display: none;
+}
+
+.card img {    
+    height: 240px;
+    border-radius: 10px;
+}
+
+.realeses_box {
+    width: 1494px;
+    margin: 10px auto 0px; 
+}
+#realeses {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.card_realeses a {
+    background-color: #1E1E1E;
+}
+.card_realeses {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1494px;
+}
+
+.card_realeses .card {
+    width: 286px;
+    height: 296px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+.card_realeses a,.card_realeses img {
+    display: flex;
+    align-self: center;
+    align-items: center; 
+    background-color: #1E1E1E;    
+}
+.card_realeses #smartphone {
+    width: 120px;
+    height: 150px;
+}
+.card_realeses #computer {
+    width: 109px;
+    height: 140px;
+}
+.card_realeses #notebook {
+    width: 188px;
+    height: 135px;
+}
+.card_realeses #parts {
+    width: 236px;
+    height: 135px;
+}
+.card-body {
+    --bs-card-spacer-y: none;
+    --bs-card-spacer-x: none;
+    background-color: #1E1E1E;
+    margin: 0%;
+}
+
+.card-text,.card-price  {
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+    padding: 10px 20px 0px;
+    margin: 0%;
+}
+
+
+.card_filter {   
+    display: flex;
+    justify-content: space-around;
+    width: 1494px;
+    margin: 5px auto;    
+}
+
+.filter {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #005CB2;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    color: white;
+    text-decoration: none;
+}
+.filter img {
+    background-color: #005CB2;    
+    width: 70%;
+    height: 50%;    
+}
+.card_gameplay, .card_news { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 1494px;    
+    margin: 5px auto;
+}
+.gameplay img, .news img {
+    width: 365px;
+    height: 290px;    
+    border-radius: 10px;
+}
+
+.card_user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1494px;
+    margin: 5px auto;
+}
+.user {
+    width: 284px;    
+    border-radius: 10px;
+    background-color: #1E1E1E;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.photo_user {
+    width: 50%;
+    border-radius: 100%;
+    background-color: #005CB2;
+}
+.name_user {
+    background-color: #1E1E1E;
+    margin: 10px;
+}
+.stars {
+    background-color: #1E1E1E;
+    color: gold;
+}
+.testimony_user {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #1E1E1E;
+    margin: 5px auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 1494px;
+    margin: 0 auto 40px;
+    background-color: #1E1E1E;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+#senai{
+    width: 18.2%;
+    height: 50%;
+    margin: 20px;
+}
+.adress {
+    margin: 20px ;
+    background-color: #1E1E1E;
+}
+.media_social {
+   display: flex;
+   justify-content: space-around;
+   margin: 20px 0 0;
+   background-color: #1E1E1E;
+}
+.ico_media_social {
+    width: 40px;
+    background-color: #1E1E1E;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E1E;
+}
+.final_menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E1E;
+}
+.list_1 a, .list_2 a {
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1E1E1E;
+}
